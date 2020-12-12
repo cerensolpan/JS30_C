@@ -1,13 +1,25 @@
-body {
+.upTitle{
+  margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: rgb(7, 46, 131);
+}
+
+.row {
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 12vh;
     font-family: "Poppins", sans-serif;
   }
-  
+ 
   .btn {
     font-size: 1.5em;
     letter-spacing: 0.1em;
@@ -16,6 +28,7 @@ body {
     position: relative;
     padding: 3px;
     background-color: black;
+    margin: 5px;
   }
   .btn:before, .btn:after {
     content: "";
