@@ -1,13 +1,21 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: auto;
+  padding: auto;
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+
+
 }
 
 .upTitle {
-  margin: 0;
-  padding: 0;
-  display: flex;
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: block;
   justify-content: center;
   align-items: center;
   height: 12vh;
@@ -16,14 +24,13 @@ body {
 }
 
 .row {
-  margin: 0;
-  padding: 20px;
+  margin-top: -40px;
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 12vh;
   font-family: "Poppins", sans-serif;
-  direction: column;
   display: flex;
   flex-wrap: wrap;
 }
