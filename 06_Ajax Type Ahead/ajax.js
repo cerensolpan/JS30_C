@@ -29,6 +29,8 @@ function displayMatches() {
       <li>
         <span class="name">${cityName}, ${stateName}</span>
         <span class="population">${numberWithCommas(place.population)}</span>
+        <span class="growth">${numberWithCommas(place.growth_from_2000_to_2013)}</span>
+        
       </li>
     `;
   }).join('');
