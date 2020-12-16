@@ -1,0 +1,47 @@
+html {
+    font-family: sans-serif;
+    background-color: rgb(73, 74, 75)
+}
+
+.intro {
+    background-color: #272525;
+    color: white;
+    padding: 25px;
+    border-radius: 5px;
+    margin-bottom: 0px;
+}
+
+.inbox {
+    max-width: 300px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 50px auto;
+    box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc8c8;
+}
+
+.item:last-child {
+    border-bottom: 0;
+}
+
+input:checked+p {
+    font-weight: bold;
+}
+
+input[type="checkbox"] {
+    margin: 20px;
+}
+
+p {
+    margin: 0;
+    padding: 20px;
+    transition: background 0.2s;
+    flex: 1;
+    font-weight: 200;
+    border-left: 1px solid #D1E2FF;
+}
