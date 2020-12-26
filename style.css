@@ -26,11 +26,12 @@ body {
 
 .row {
   margin-top: 150px;
+  margin-bottom: 100px;
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 12vh;
+
   font-family: "Poppins", sans-serif;
   display: flex;
   flex-wrap: wrap;
@@ -115,16 +116,14 @@ body {
 footer {
   padding-bottom: 1rem;
   padding-top: 1rem;
-  position: fixed;
   bottom: 0;
 }
 
 footer p {
-  color: black;
+  color: white;
   font-size: 0.825rem;
   margin-bottom: 0.25rem;
   text-align: center;
-
 }
 
 .emoji {
