@@ -2,3 +2,5 @@
 debug.log
 .vscode/launch.json
 20_Speech Detection/node_modules/
+21_Geolocation/node_modules/
+21_Geolocation/package-lock.json
