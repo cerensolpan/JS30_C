@@ -28,7 +28,7 @@ body {
     display: inline-block;
 }
 
-h1 {
+.speed {
     color: white;
     font-weight: 100;
     font-size: 60px;
