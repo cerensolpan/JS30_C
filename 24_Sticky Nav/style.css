@@ -11,8 +11,7 @@ body {
 }
 
 header {
-    margin: 0;
-    background: radial-gradient(circle at top right, rgb(0, 128, 90) 2%, #d3c612 30%, transparent), radial-gradient(circle at bottom center, green -15%, cyan 50%, yellow);
+    background: radial-gradient(circle at top right, grey 2%, #0a0838 30%, transparent), radial-gradient(circle at bottom center, black -15%, grey 50%, rgb(71, 71, 61));
     background-repeat: no-repeat;
     background-size: cover;
     height: 50vh;
@@ -83,4 +82,16 @@ li.logo a {
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.05);
     transform: scale(0.98);
     transition: transform 0.5s;
+}
+
+body.fixed-nav .bodyText{
+    transform: scale(1);
+}
+body.fixed-nav nav{
+    position: fixed;
+    box-shadow: 0 5px 0 rgba(0,0,0,0.1);
+}
+
+.fixed-nav li.logo{
+    max-width: 500px;
 }
