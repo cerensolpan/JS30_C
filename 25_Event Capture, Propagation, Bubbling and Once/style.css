@@ -1,0 +1,59 @@
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after { box-sizing: inherit; }
+
+div{
+    width:100%;
+    padding:100px;
+}
+.bod::before {
+    color: gray;
+    content: "bod";
+    font-size: 30px;
+  }
+
+.one {
+    background: thistle;
+    content: "one";
+    margin-top: 20px;
+    position: relative;
+  }
+  .one::before {
+    color: #9a6f92;
+    content: "one";
+    font-size: 48px;
+    left: 30px;
+    position: absolute;
+    top: 10px;
+  }
+  .two {
+    background:mistyrose;
+    position: relative;
+  }
+  .two::before {
+    color: #d2bcba;
+    content: "two";
+    font-size: 48px;
+    left: 30px;
+    position: absolute;
+    top: 10px;
+  }
+
+  .three {
+    background:coral;
+    position: relative;
+  }
+  .three::before {
+    color: #b15934;
+    content: "three";
+    font-size: 48px;
+    left: 30px;
+    position: absolute;
+    top: 10px;
+  }
+  button{
+    display: block;
+    margin: 20px auto;
+    padding: 6px 12px;
+  }
