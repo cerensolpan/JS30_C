@@ -59,6 +59,32 @@ nav{
     justify-content: center;
     opacity:0;
   }
+
+  .dropdown {
+    opacity: 0;
+    position: absolute;
+    overflow: hidden;
+    padding:20px;
+    top:-20px;
+    border-radius:2px;
+    transition: all 0.5s;
+    transform: translateY(100px);
+    will-change: transform;
+    display: none;
+  }  
+
+  .trigger-enter .dropdown {
+    display: block;
+  }
+  
+  .trigger-enter-active .dropdown {
+    opacity: 1;
+  }
+
+  .dropdownBackground.open {
+    opacity: 1;
+  }
+
   .bio {
     min-width:500px;
     display:flex;
@@ -72,11 +98,11 @@ nav{
     margin-right:20px;
   }
   
-  .courses {
+  .dropdown2 {
     min-width:300px;
   }
   
-  .courses li {
+  .dropdown2 li {
     padding: 10px 0;
     display: block;
     border-bottom: 1px solid rgba(0,0,0,0.2);
@@ -86,3 +112,24 @@ nav{
     text-decoration: none;
     color: #b15934;
   }
+
+  .arrow {
+    position: absolute;
+    width:20px;
+    height:20px;
+    display: block;
+    background:#ccc;
+    transform: translateY(-50%) rotate(45deg);
+  }
+
+  a.button {
+    background:black;
+    display: block;
+    padding:10px;
+    color:white;
+    margin-bottom: 10px;
+  }
+  
+  .button[href*=twitter] { background: #e98c01; }
+  .button[href*=github] { background: #ffd900; }
+  .button[href*=linkedin] { background: #00cea1; }
