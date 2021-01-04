@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rock-Paper-Scissor</title>
+        <script src="https://kit.fontawesome.com/e391ce7786.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1>Rock-Paper-Scissors</h1>
+        <button onClick="resetGame()" class="reset">RESET!</button>
+        <p class="message">Are you ready?</p>
+        <div class="players">
+            <div class="player1">
+                <p>You: <span class="myScore">0</span></p>
+                <p id="myBlock"></p>
+                <div class="icons">
+                    <button onclick="myChoice('sc')" id="scissors" class="fas fa-hand-scissors"></button>
+                    <button onclick="myChoice('pp')" id="paper" class="fas fa-hand-paper"></button>
+                    <button onclick="myChoice('rc')" id="rock" class="fas fa-hand-rock"></button>
+                </div>
+            </div>
+            <div class="player2">
+                <p>Computer: <span class="comScore">0</span></p>
+                <div id="comBlock"></div>
+            </div>
+        </div>
+
+        <script src="scripts.js"></script>
+    </body>
+
+</html>
