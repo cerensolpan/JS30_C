@@ -20,22 +20,14 @@ h1 {
 #scissors,
 #paper,
 #rock {
-    margin: 0;
-    left: 30%;
-    margin: 10px;
-    padding: 10px 30px;
+    left: 50%;
+    margin: 5px;
+    padding: 10px 25px;
     background-color: rgb(179, 56, 56);
     color: burlywood;
     font-size: 20px;
     border-radius: 10px;
     cursor: pointer;
-}
-
-#scissors::after,
-#paper::after,
-#rock::after {
-
-    size: 50px;
 }
 
 .reset {
@@ -53,6 +45,7 @@ h1 {
 
 .players {
     display: flex;
+    flex-wrap: wrap;
     text-align: center;
     justify-content: center;
     margin: 30px auto
@@ -67,7 +60,8 @@ h1 {
     color: burlywood;
     border-radius: 10px;
     display: block;
-
+    width: 280px;
+    height: 360px;
 }
 
 .player2 {
@@ -79,6 +73,8 @@ h1 {
     color: burlywood;
     border-radius: 10px;
     display: block;
+    width: 280px;
+    height: 360px;
 }
 
 #comBlock,
@@ -86,7 +82,7 @@ h1 {
     margin: 0;
     left: 50%;
     margin: 25px auto;
-    padding: 5px 50px;
+    padding: 5px 40px;
     background-color: brown;
     border-radius: 10px;
     height: 200px;
